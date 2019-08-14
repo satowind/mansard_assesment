@@ -2,3 +2,101 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+.header-md::after,
+.tabs-md[tabsPlacement="top"]>.tabbar::after,
+.footer-md::before,
+.tabs-md[tabsPlacement="bottom"]>.tabbar::before {
+
+  background-image: none;
+  background-repeat: repeat-x;
+}
+
+.toolbar-background-md {
+  background: #fff;
+}
+
+.sc-ion-card-md-s img {
+  display: block;
+  width: 70%;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  opacity: .2;
+}
+
+.image-slider {
+  margin-right: 30px !important;
+  font-size: 3em
+}
+
+ion-content {
+
+  --ion-background-color: #f4f5f9;
+}
+
+.new-background-color {
+  --background: #9786eb;
+}
+
+.background {
+  --background: #9786eb;
+}
+
+.ion-item {
+  --background: #9786eb;
+  --border-color: rgba(0, 0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.card {
+  --background: #9786eb;
+  border: none !important
+}
+
+.cards {
+  --background: #9786eb;
+  margin-top: -4%;
+  border: none !important
+}
+
+.item-native {
+  border: none !important;
+  box-shadow: none !important
+}
+
+.welcome-card {
+  z-index: 10001;
+}
+
+.text {
+  color: white;
+  font-weight: 600
+}
+
+.col-4 {
+  width: 50%
+}
+
+.label-item {
+  font-size: .8em;
+  font-weight: 600
+}
+
+.hello {
+  position: relative;
+  height: 62px;
+  background: #9786eb;
+  top: 0;
+  right: 0;
+  width: 100%;
+  border-radius: 0 0 65px 65px;
+  margin-bottom: -19%;
+  margin-top: -1%;
+}
